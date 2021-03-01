@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Assignment#15</h1>
+    <h3>Javascript</h3>
+    
+    <script>
+        // CONDITIONS
+
+        // ANSWER#1
+        var num1=prompt("Enter first number");
+        var num2=prompt("Enter second number");
+        if(num1>num2){
+            alert(num1, "is maximum")
+        }
+        else{
+            alert(num2, "is maximum")
+        }
+
+        // ANSWER#2
+        // var num1=prompt("Enter first number");
+        // var num2=prompt("Enter second number");
+        // var num3=prompt("Enter third number");
+        // if(num1>num2&&num1>num3){
+        //     alert(num1, "is maximum");
+        // }
+        // if(num2>num3&&num2>num1){
+        //     alert(num2, "is maximum");
+        // }
+        // if(num3>num1&&num3>num2){
+        //     alert(num3, "is maximum")
+        // }
+
+        // ANSWER#3
+        // var num=prompt("Enter a number");
+        // for(var index=0;index<=num.length;index++){
+        //     if(num[index]=="-"){
+        //         alert("Number is negative");
+        //         break;
+        //     }
+        //     if(num==0){
+        //         alert("Number is zero");
+        //         break;
+        //     }
+        //     else{
+        //         alert("Number is positive")
+        //         break;
+        //     }
+        // }
+
+        // ANSWER#4
+        // var num=prompt("Enter a number");
+        // if(num%5==0){
+        //     alert("Number is divisible by 5")
+        // }
+        // if(num%11==0){
+        //     alert("Number is divisible by 11")
+        // }
+        // if(num%5!=0&&num%11!=0){
+        //     alert("Number is not divisible by 5 and 11")
+        // }
+
+        // ANSWER#5
+        // var num=prompt("enter a number")
+        // for(var num=num;num>=0;num=num-2){
+        // if(num==0){
+        //     alert("it is even");
+        // }
+        // if(num==1){
+        //     alert("it is odd")
+        // }
+        // }
+
+            // ANSWER#6
+            // var year=prompt("Enter a year")
+            // if(year%4==0){
+            //     alert("Leap year")
+            // }
+            // else if(year%100==0){
+            //     alert("Not a leap year")
+            // }
+            // else if(year%400==0){
+            //     alert("Leap year")
+            // }
+            // else{
+            //     alert("Not a leap year")
+            // }
+
+        // ANSWER#7
+        // var alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+        // var char=prompt("Enter something");
+        // for(var num=0;num<alpha.length;num++){
+        //     if(alpha[num]==char){
+        //         alert("It is an alphabet")
+        //     }
+        // }
+
+        // ANSWER#8
+        // var consonant=["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z"]
+        // var vowel=["a","e","i","o","u"]
+        // var char=prompt("Enter something");
+        // for(var num=0;num<consonant.length;num++){
+        //     if(consonant[num]==char){
+        //         alert("It is a consonant")
+        //     }
+        // if(vowel[num]==char){
+        //         alert("It is a vowel")
+        //     }
+        // }
+
+        // ANSWER#9
+        // var alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+        // var digit=["0","1","2","3","4","5","6","7","8","9"];
+        // var charact=["-","+","*","%","#","@","!","&","$","/"]
+        // var char=prompt("Enter something");
+        // for(var num=0;num<alpha.length;num++){
+        //     if(alpha[num]==char){
+        //         alert("It is a alphabet")
+        //     }
+        // if(digit[num]==char){
+        //         alert("It is a digit")
+        //     }
+        //     if(charact[num]==char){
+        //         alert("It is a special character")
+        //     }
+        // }
+
+        // STRING HANDLING
+
+        // ANSWER#1
+        // var newString=prompt("Enter a string");
+        // var num=newString.length;
+        // alert("String length is "+num);
+         // ANSWER#2
+        // var str1="My name is Farooq Ahmad";
+        // var str2="My profession is trading"; 
+        // alert(str1+" "+str2)
+        
+        // ANSWER#3
+        // var str1=prompt("Enter first string");
+        // var str2=prompt("Enter second string");
+        // var concat=str1+str2;
+        // alert(concat);
+
+        // ANSWER#4
+        // var str1=prompt("Enter first string")
+        // var str2=prompt("Enter second string")
+        // if(str1==str2){
+        //     alert("True")
+        // }
+        // else{
+        //     alert("false")
+        // }
+
+        // ANSWER#5
+        // var str="farooq ahmad";
+        // var strUpper=str.toUpperCase();
+        // alert(strUpper)
+
+        // ANSWER#6
+        // var str="FAROOQ AHMAD";
+        // var strLower=str.toLowerCase();
+        // alert(strLower)
+
+         // ANSWER#8
+        //  var alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+        // var digit=["0","1","2","3","4","5","6","7","8","9"];
+        // var charact=["-","+","*","%","#","@","!","&","$","/"]
+        // var count=0;
+        // var count1=0;
+        // var count2=0;
+        // var cha=prompt("Enter something");
+        
+        // for(var num=0;num<cha.length;num++){
+        //     for(var index=0;index<alpha.length;index++){
+        //     if(cha[num]==alpha[index]){
+        //         count++;
+        //     }
+        //     if(cha[num]==digit[index]){
+        //         count1++;
+        //     }
+        //     if(cha[num]==charact[index]){
+        //         count2++;
+        //     }
+        // }
+        // }
+        // document.write("Alphabets are ",count+"<br>"+"Digits are ",count1+"<br>"+"Characters are ",count2)
+       
+        // ANSWER#9
+        //  var consonant=["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z"]
+        // var vowel=["a","e","i","o","u"]
+        // var char=prompt("Enter something");
+        // var count="";
+        // var count1="";
+        // for(var num=0;num<char.length;num++){
+        //     for(let index=0;index<consonant.length;index++){
+        //     if(consonant[index]==char[num]){
+        //         count++;
+        //     }
+        // if(vowel[index]==char[num]){
+        //         count1++;
+        //     }
+        // }
+        // }
+        // document.write("consonants are ",count+"<br>"+"Vowels are ",count1)
+
+        // ANSWER#10
+        // var str=prompt("Enter a string");
+        // var count=1;
+        // for(index=0;index<=str.length;index++){
+        //     if(str[index]==" "){
+        //         count++;
+        //     }
+        // }
+        // alert(count);
+        
+        // ANSWER#11
+        // var str="farooq";
+        // var rev="";
+        // for(var num=str.length;num>=0;num--){
+        //     rev+=str[num]
+        // }
+        // document.write("Reverse string is ",rev)
+
+         // ANSWER#12
+        // var str=prompt("Write a word")
+        // var rev="";
+        // for(var num=str.length-1;num>=0;num--){
+        //     rev+=str[num]
+        // }
+        // if(rev==str){
+        //     alert("Its a palindrome word")
+        // }
+        // else{
+        //     alert("its not a palindrome word")
+        // }
+
+        // ARRAY HANDLING
+
+        // ANSWER#1
+        // var name=["farooq","waqas","khalil","ahmad"]
+        // alert(name)
+
+        // ANSWER#2
+        // var arr=["-farooq","12","-32","ahmad","-22"];
+        // var arr2=" ";
+        // for(var index=0;index<=arr.length;index++){
+        //     var arr1=arr[index];
+        //     for(var num=0;num<=arr1.length;num++){
+        //         if(arr1[num]=="-"){
+        //             arr2=arr2+arr1;
+        //             document.write(arr2);
+        //         }
+        //     }
+        // }
+
+        // ANSWER#3
+        // var arr=[12,12,32,22];
+        // var arrSum=0;
+        // for(var index=0;index<=arr.length;index++){
+        //    arrSum=arrSum+arr[index];
+        // }
+        // alert(arrSum)
+
+        // ANSWER#4
+        // var arr=[5,23,24,4,16,3];
+        // for(var index=0;index<=arr.length;index++){
+        //     for(var num=1;num<=arr.length;num++){
+        //         if(arr[index]>arr[num]){
+
+        //             alert(arr[index], "is maximum number")
+        //         }
+        //     }
+        // }
+
+        // ANSWER#6
+        // var num=[2,5,7,9,11,14,44,22,66,45,43];
+        // var count=0;
+        // var count1=0;
+        // for(var index=0;index<=num.length;index++){
+        //     if(num[index]%2==0){
+        //         count++;
+        //     }
+        //     if(num[index]%2!=0){
+        //         count1++;
+        //     }
+        // }
+        // document.write("Even numbers are ",count,"<br>");
+        // document.write("Odd numbers are ",count1);
+
+        // ANSWER#9
+        // var name1=["farooq","ali","ahmad","waqas"];
+        // name1.splice(1,0,"Habeeb")
+        // document.write(name1)
+
+        // ANSWER#10
+        // var name1=["farooq","ali","ahmad","waqas"];
+        // name1.splice(1,1)
+        // document.write(name1)
+            
+        // LOOPS
+
+        // ANSWER#1
+        // for(var index=0;index<100;index++){
+        //     document.write(index)
+        // }
+
+        // ANSWER#2
+        // for(var index=100;index>0;index--){
+        //     document.write(index);
+        // }
+
+        // ANSWER#3
+        // var alpha=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+        // for(var index=0;index<alpha.length;index++){
+        //     document.write(alpha[index])
+        // }
+
+        // ANSWER#4
+        // for(var num=1;num<=100;num++){
+        //     if(num%2==0){
+        //         document.write(num,"<br>")
+        //     }
+        // }
+
+        // ANSWER#5
+        // for(var num=1;num<=100;num++){
+        //     if(num%2!=0){
+        //         document.write(num,"<br>")
+        //     }
+        // }
+
+
+
+        
+        
+        
+        
+
+        </script>
+</body>
+</html>
